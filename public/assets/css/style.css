@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "dds";
+    src: url("/assets/fonts/dds.ttf");
+}
+body {
+	background: black;
+	color: white;
+	font-family: 'dds';
+}
+
+h1 {
+	margin-bottom: 50px;
+}
+
+p.CAUTION {
+	font-size: 120%;
+	margin-bottom: 50px;
+	color: red;
+}
+span.CAUTION {
+	font-size: 80%;
+}
+
+p.NOIMPLEMENTS {
+	color: gray;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	line-height: 30px;
+}
+
+table tr td {
+	line-height: 30px;
+	background: #202828;
+	padding: 5px;
+}
+
+dl {
+	margin-bottom: 50px;
+}
