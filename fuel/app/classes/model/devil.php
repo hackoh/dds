@@ -119,7 +119,8 @@ class Model_Devil extends \Orm\Model
 			throw new DevilCombineFailedException('New class is not found');
 		}
 
-		$new_devil = $new_class->search(($this->lv + $devil->lv) / 2);
+		// add "1" after average both lv.
+		$new_devil = $new_class->search(($this->lv + $devil->lv + 1) / 2);
 
 		$new_devil->extend($this, $devil);
 
