@@ -1,0 +1,11 @@
+Tests Running...This may take a few moments.
+PHPUnit 3.7.15 by Sebastian Bergmann.
+
+Configuration read from C:\dev\dds\fuel\core\phpunit.xml
+
+.
+
+Time: 1 second, Memory: 10.00Mb
+
+[30;42m[2KOK (1 test, 9 assertions)
+[0m[2K
